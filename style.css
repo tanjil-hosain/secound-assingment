@@ -111,4 +111,29 @@ body{
     text-transform: uppercase;
 }
 
+/* this is online game section */
+
+.game-contain{
+    text-align: center;
+    margin-top: 100px;
+  
+}
+.game-color{
+    color: #a849df;
+}
+
+.game-image{
+    text-align: center;
+    padding: 50px;
+ 
+}
+
+
+.gameimg{
+    width: 250px;
+    padding: 10px;
+}
+
+}
+
 
