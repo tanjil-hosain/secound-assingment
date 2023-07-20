@@ -389,11 +389,20 @@ nav{
         width: auto;
     }
 
-    .banner-text{
+    .banner-left{
         background-image: url('../images/banner-txt-bg.png');
         background-repeat: no-repeat;
         background-position: left;
-        background-size: 110%;
+        background-size: 100%;
+        width: 100%;
+        padding: 3rem 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-us{
+        background: #FFF;
     }
 
     .about-container{
@@ -412,9 +421,23 @@ nav{
 
     .online-games-images{
         width: 100%;
+        height: 80vw;
+    }
+
+    .social-links{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .footer-links-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .imp-links{
+        grid-template-columns: repeat(2,1fr);
     }
 
 }
+
 
 /* Styles for Tablets*/
 @media (min-width: 577px) and (max-width: 991px) {
